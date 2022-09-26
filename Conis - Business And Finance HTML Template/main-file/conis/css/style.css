@@ -448,6 +448,7 @@ body .theme-button {
     box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
   -webkit-animation: menu_sticky 0.7s ease-in-out;
   animation: menu_sticky 0.7s ease-in-out;
+  /* height: 150px; */
 }
 /*---------------------------- Theme Main Banner -------------------------*/
 .camera_wrap {float:none;}
@@ -495,7 +496,9 @@ body .theme-button {
 #theme-main-banner .camera_caption p {
   font-size: 22px;
   line-height: 35px;
-  color: rgba(0,0,0,0.6);
+  /* color: rgba(0,0,0,0.6); */
+  color: whitesmoke;
+
   padding: 25px 0 30px 0;
 }
 #theme-main-banner .camera_caption a {
@@ -517,13 +520,21 @@ body .theme-button {
 #theme-main-banner .camera_caption a.button-two {border-color: rgba(0,0,0,0.06);border-style: solid;}
 
 /*--------------------------------- Top Feature -------------------------*/
-.top-feature {border-bottom: 1px solid rgba(0,0,0,0.05);margin-bottom: 120px;}
+.top-feature {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  margin-bottom: 120px;
+  background: rgba(0,73,164,0.9);
+  color: white;
+}
 .top-feature .single-feature .text {padding-left: 25px;}
 .top-feature .single-feature .text h4 a {font-weight: 500;margin-top: 5px;}
 .top-feature .single-feature {padding: 50px 0;}
 .top-feature .single-feature:hover img {
   -webkit-transform:scale(1.1);
           transform:scale(1.1);
+}
+a.tran3s{
+  color: white;
 }
 /*------------------------ Our Service ------------------------*/
 .our-service .theme-title {padding-bottom: 90px;}
@@ -558,6 +569,7 @@ body .theme-button {
 .our-service .single-service .text p {font-size: 16px;margin-top: 20px;}
 .our-service .single-service .icon img {margin: 0 auto;}
 .our-service .single-service .icon {padding-top: 65px;}
+
 /*------------------------ Our Service Two ------------------------*/
 .our-service-two .theme-title {padding-bottom: 70px;}
 .our-service-two .single-service {
@@ -573,11 +585,12 @@ body .theme-button {
 .our-service-two .single-service i {font-size: 55px;color: #7991ae;}
 .our-service-two .single-service h5 a {font-weight: 500;margin: 20px 0 15px 0;color: #292c32;}
 .our-service-two .single-service p {font-size: 15px;line-height: 28px;}
+
 /*------------------------ About Home Section --------------------------*/
 .home-about-section {margin: 40px 0 125px 0;}
 .home-about-section>.float-left {width: 50%;}
 .home-about-section .left-side {
-  background: url(../images/home/2.jpg) no-repeat center;
+  background: url(../images/home/team2.jpg) no-repeat center;
   background-size: cover;
   height: 647px;
 }
@@ -591,7 +604,7 @@ body .theme-button {
 /*----------------------- Feature Banner --------------------*/
 .feature-banner {margin: 70px 0 120px 0;}
 .feature-banner.bg-one {
-  background: url(../images/home/1.jpg) no-repeat center;
+  background: url(../images/home/dossiers.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }

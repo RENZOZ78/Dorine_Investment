@@ -75,6 +75,9 @@
   .consultation-form .form-wrapper {padding: 50px 0 0 0;}
   .latest-update .theme-title h2 {margin-bottom: 0;}
   .latest-update .theme-title {margin-bottom: 40px;}
+  .main-menu-wrapper{
+    height: 100px;
+  }
 } 
 /*(max-width: 991px)*/
 
