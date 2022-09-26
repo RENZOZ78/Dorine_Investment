@@ -526,8 +526,9 @@ body .theme-button {
   background: rgba(0,73,164,0.9);
   color: white;
 }
+
 .top-feature .single-feature .text {padding-left: 25px;}
-.top-feature .single-feature .text h4 a {font-weight: 500;margin-top: 5px;}
+.top-feature .single-feature .text h4 a {font-weight: 500;margin-top: 5px; color: white;}
 .top-feature .single-feature {padding: 50px 0;}
 .top-feature .single-feature:hover img {
   -webkit-transform:scale(1.1);
@@ -626,18 +627,31 @@ a.tran3s{
 .feature-banner .single-box {padding-bottom: 50px;}
 
 /*--------------------- Testimonial Slider --------------*/
-.testimonial-section {background: #f9f9f9;padding: 90px 0 100px 0;}
-.testimonial-section .theme-title {padding-bottom: 100px;}
+.testimonial-section {
+  background: #104587;
+  padding: 90px 0 100px 0;
+color: white;}
+.testimonial-section .theme-title {
+  padding-bottom: 100px;
+color: white;}
+.testimonial-section .theme-title h2{
+  color: white;
+}
 .testimonial-section .author-img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
+  color: white;
 }
 .testimonial-section .text {
   width: calc(100% - 160px);
   padding-left: 40px;
 }
-.testimonial-section .text h5 {font-weight: 600;font-size: 18px;margin-bottom: 3px;}
+.testimonial-section .text h5 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 3px;
+color: white;}
 .testimonial-section .text span {font-size:16px;}
 .testimonial-section .text p {
   font-size: 22px;
@@ -726,6 +740,13 @@ a.tran3s{
   color: rgba(255,255,255,0.5);
 }
 /*----------------------- Footer -----------------------*/
+.theme-footer{
+  background-color: #1455a6;
+  color: white;
+}
+.theme-footer h2{
+  color: white;
+}
 .theme-footer .content-wrapper {padding-top: 120px;}
 .theme-footer .content-wrapper.border-fix {border-top: 1px solid #e7e7e7;}
 .theme-footer h2 {text-align: center;font-weight: 300;margin-bottom: 100px;}
@@ -787,6 +808,7 @@ a.tran3s{
 .theme-footer .copyright-wrapper ul li:nth-child(2) a {background: #16baff;}
 .theme-footer .copyright-wrapper ul li:nth-child(3) a {background: #ff4f4f;}
 .theme-footer .copyright-wrapper {padding: 60px 0 30px 0;}
+
 /*---------------------------- Theme Inner Banner ---------------------*/
 .inner-banner {
   background: url(../images/home/inner-banner.jpg) no-repeat center;
@@ -819,6 +841,7 @@ a.tran3s{
   text-transform: capitalize;
 }
 .inner-banner .overlay ul li a {color: #fff;}
+
 /*------------------------ About Us -------------------*/
 .about-us-section .title {font-weight: 300;line-height: 60px;text-align: right;}
 .about-us-section .text-wrapper h4 {
@@ -837,6 +860,7 @@ a.tran3s{
 .about-us-section .text-wrapper {padding-left: 50px;}
 .about-us-section .image-gallery {padding: 100px 0 110px 0;}
 .about-us-section .image-gallery img {width: 100%;margin-bottom: 20px;}
+
 /*------------------------ Our Team ------------------------*/
 .team-inner-page {padding-bottom: 100px;}
 .our-team .theme-title a {top:15px;padding: 0 50px;}
