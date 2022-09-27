@@ -1,15 +1,6 @@
 
 /* CSS Document */
 
-/* 
-    Created on   : 07/06/2018.
-    Theme Name   : Conis.
-    Description  : Conis - Business And Finance HTML Template
-    Version      : 1.0.
-    Author       : @CreativeGigs.
-    Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
-   
-*/
 
 /* ------------------------------------------ */
 /*             TABLE OF CONTENTS
@@ -75,6 +66,11 @@
 ====================================================================
 
  ***/
+
+ html {
+  scroll-behavior: smooth;
+}
+
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -355,9 +351,12 @@ body .theme-button {
   font-weight: 600;
 }
 /*------------------------------ Theme menu ----------------------*/
-.main-menu-wrapper {position: relative;}
+.main-menu-wrapper {
+  position: relative;
+  height: 150px;
+}
 .main-menu-wrapper .container {position: relative;}
-.main-menu-wrapper .logo {margin-top: 10px; height: 60px;width:60px; }
+.main-menu-wrapper .logo {margin-top: 10px; height: 100px;width:100px; }
 .main-menu-wrapper .right-widget>ul>li {line-height: 108px;display: inline-block;}
 .main-menu-wrapper .right-widget .cart-icon a {
   position: relative;
@@ -471,6 +470,12 @@ body .theme-button {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+#theme-main-banner h1{
+  color: white;
+}
+#theme-main-banner h2{
+  color: white;
+}
 #theme-main-banner .camera_caption>div {
   background: transparent;
   position: absolute;
@@ -519,14 +524,21 @@ body .theme-button {
 #theme-main-banner .camera_caption a.button-two:hover {color: #fff;}
 #theme-main-banner .camera_caption a.button-two {border-color: rgba(0,0,0,0.06);border-style: solid;}
 
-/*--------------------------------- Top Feature -------------------------*/
+/*--------------------------------- Top Feature Pourquoi nous? -------------------------*/
 .top-feature {
   border-bottom: 1px solid rgba(0,0,0,0.05);
   margin-bottom: 120px;
+  padding: 120px 0 100px;
   background: rgba(0,73,164,0.9);
   color: white;
 }
-
+.top-feature h2{
+  color: white;
+}
+.top-feature  h2::before{
+  color: white;
+  background: white;
+}
 .top-feature .single-feature .text {padding-left: 25px;}
 .top-feature .single-feature .text h4 a {font-weight: 500;margin-top: 5px; color: white;}
 .top-feature .single-feature {padding: 50px 0;}
@@ -567,9 +579,68 @@ a.tran3s{
   line-height: 32px;
 }
 .our-service.service-inner-page .single-service .text h4 a {font-size: 24px;}
-.our-service .single-service .text p {font-size: 16px;margin-top: 20px;}
+.our-service .single-service .text p {font-size: 16px;margin-top: 10px;}
 .our-service .single-service .icon img {margin: 0 auto;}
 .our-service .single-service .icon {padding-top: 65px;}
+
+/* gradient border----------------- */
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:200'); */
+
+/* html, body {
+  height: 100%;
+} */
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #1D1F20;
+} */
+/* #box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+}
+.gradient-border {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+
+
 
 /*------------------------ Our Service Two ------------------------*/
 .our-service-two .theme-title {padding-bottom: 70px;}
@@ -626,11 +697,16 @@ a.tran3s{
 .feature-banner .single-box p {color: #fff;font-size: 20px;}
 .feature-banner .single-box {padding-bottom: 50px;}
 
-/*--------------------- Testimonial Slider --------------*/
+/*--------------------- Testimonial Slider - avis client --------------*/
 .testimonial-section {
   background: #104587;
   padding: 90px 0 100px 0;
 color: white;}
+
+.testimonial-section h2:before{
+  /* color: white; */
+  background-color: white;
+}
 .testimonial-section .theme-title {
   padding-bottom: 100px;
 color: white;}
@@ -638,9 +714,9 @@ color: white;}
   color: white;
 }
 .testimonial-section .author-img {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border-radius: 25%;
   color: white;
 }
 .testimonial-section .text {
@@ -739,6 +815,7 @@ color: white;}
   font-size: 25px;
   color: rgba(255,255,255,0.5);
 }
+
 /*----------------------- Footer -----------------------*/
 .theme-footer{
   background-color: #1455a6;
@@ -746,6 +823,14 @@ color: white;}
 }
 .theme-footer h2{
   color: white;
+}
+.footer-logo .logo{
+  height: 100px ;
+  width: 100px;
+}
+.footer-info{
+  display: flex;
+  justify-content: center;
 }
 .theme-footer .content-wrapper {padding-top: 120px;}
 .theme-footer .content-wrapper.border-fix {border-top: 1px solid #e7e7e7;}
@@ -784,6 +869,7 @@ color: white;}
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 35px;
+  color: white;
 }
 .theme-footer .footer-bottom-wrapper .footer-list ul li a {color: #adadad;line-height: 40px;}
 .theme-footer .copyright-wrapper p {
@@ -803,6 +889,13 @@ color: white;}
   color: #fff;
   font-size: 18px;
   margin-left: 5px;
+}
+.footer-info a{
+  color: #9c9c9f;
+}
+.copyright-wrapper .social{
+  display: flex;
+  justify-content: center;
 }
 .theme-footer .copyright-wrapper ul li:first-child a {background: #1372cf;}
 .theme-footer .copyright-wrapper ul li:nth-child(2) a {background: #16baff;}

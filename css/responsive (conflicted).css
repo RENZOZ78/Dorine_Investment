@@ -72,20 +72,13 @@
   .feature-banner .single-box p {font-size: 16px;}
   .feature-banner .theme-title h2 {margin-bottom: 65px;}
   .portfolio-details .details-text .portfolio-info-list ul {margin-top: 70px;}
-  .theme-footer .subscribe-form input[type="submit"] {
-    width: 180px;
-    display: block;
-    margin: 0 auto;
-  }
+  .theme-footer .subscribe-form input[type="submit"] {width: 180px;display: block;margin: 0 auto;}
   .theme-footer .footer-bottom-wrapper [class*="col-"] {margin-bottom: 50px;}
   .theme-footer .copyright-wrapper {padding-top: 10px;}
   .inner-banner .overlay {padding: 100px 0;}
   .about-us-section .title {text-align: left;margin-bottom: 40px;}
   .inner-banner,.contact-us-form {margin-bottom: 90px;}
-  .our-service.service-inner-page .single-service .text {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  .our-service.service-inner-page .single-service .text {padding-left: 15px;padding-right: 15px;}
   .service-details .box-wrapper {padding: 0;}
   .service-details .box-wrapper .title h3,.service-details .box-wrapper .title .loan {float: none !important;}
   .service-details .box-wrapper .title h3 {margin: 0 0 25px 0;}
@@ -104,21 +97,8 @@
   .main-menu-wrapper{
     height: 170px;
   }
-  .theme-footer .copyright-wrapper{
-    display: block;
-    text-align: center;
-  }
-  .footer-info{
-    display: block;
-    /* justify-content: space-evenly; */
-  }
-  .social {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
 } 
-
+/*(max-width: 991px)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
   .home-about-section .right-side .opacity .main-content {max-width: 720px;}
@@ -240,7 +220,7 @@
     text-align: center;
   }
   .footer-info{
-    display: block;
+    display: ;
   }
 }
 @media (max-width: 500px) {
