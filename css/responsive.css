@@ -242,6 +242,9 @@
   .footer-info{
     display: block;
   }
+  .entete{
+    height: 100px;
+  }
 }
 @media (max-width: 500px) {
   .our-team .single-team-member .text-wrapper {width: 100%;padding: 25px 0 0 0;}
