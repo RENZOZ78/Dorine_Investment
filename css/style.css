@@ -583,6 +583,28 @@ a.tran3s{
 .our-service .single-service .icon img {margin: 0 auto;}
 .our-service .single-service .icon {padding-top: 65px;}
 
+.border_services{
+  
+  border-radius: 10px;
+  /* border-color: blue; */
+   /* background: rgb(255,199,0.1);  */
+   background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,251,1,1) 42%, rgba(255,217,1,1) 72%);
+   padding-top: 10px;
+   margin-right: 15px;
+}
+
+.single-service .text{
+  background-color: rgb(255,199,1);
+  border-radius: 10px;
+}
+
+.services{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 /* gradient border----------------- */
 /* @import url('https://fonts.googleapis.com/css?family=Raleway:200'); */
 
