@@ -36,29 +36,34 @@
   .our-service-two .single-service {padding-left: 20px;}
   .testimonial-section .text p {font-weight: 20px;}
 }
-/*(min-width: 992px) and (max-width: 1199px)*/
+/*max-width: 991px)*/
 
 @media (max-width: 991px) {
   .theme-title p {
     font-size: 18px;
   }
   .theme-title a {
-    position: static;margin-top: 25px;
+    position: static;
+    margin-top: 25px;
   }
  
   .main-menu-wrapper .logo,.main-menu-wrapper .right-widget {
     position: relative; 
-    z-index: 99;
+    /* z-index: 99; */
   }
+
   .main-menu-wrapper .right-widget  {
     margin-right:70px;
   }
+
   #mega-menu-wrapper {
     position: absolute;
     left:15px;
     right:15px;
     top:0;
-    z-index: 9;}
+    z-index: 100;
+    background-color: #104587;
+  }
   .main-menu-wrapper .right-widget>ul>li {
     line-height: 60px;
   }

@@ -36,6 +36,9 @@
 * Importing necessary  Styles.
 **/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:200,300,400,500,600,700');
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
 /*----bootstrap css ----- */
 @import url('../vendor/bootstrap/css/bootstrap.min.css');
 /*----camera-slider---*/
@@ -350,6 +353,18 @@ body .theme-button {
   font-size: 14px;
   font-weight: 600;
 }
+
+/* titre dorine */
+.titre_site{									
+  color: #FFD901;
+  font-size: 40px;  
+  font-family: 'Marcellus SC', serif;
+
+padding-top: 10px;
+padding-left: 120px;
+line-height: 40px;
+}
+
 /*------------------------------ Theme menu ----------------------*/
 .main-menu-wrapper {
   position: relative;
@@ -524,6 +539,11 @@ body .theme-button {
 #theme-main-banner .camera_caption a.button-two:hover {color: #fff;}
 #theme-main-banner .camera_caption a.button-two {border-color: rgba(0,0,0,0.06);border-style: solid;}
 
+
+h1 .wow .fadeInUp .animated .nom_commerciale{
+  color: rgb(255,217,1);
+}
+
 /*--------------------------------- Top Feature Pourquoi nous? -------------------------*/
 .top-feature {
   border-bottom: 1px solid rgba(0,0,0,0.05);
@@ -596,7 +616,7 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,251,1,1) 42
 
 .single-service .text{
   background-color: rgb(255,199,1);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .services{
@@ -676,7 +696,11 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,251,1,1) 42
   -webkit-box-shadow: 0px 0px 56px 14px rgba(64, 74, 105, 0.05);
           box-shadow: 0px 0px 56px 14px rgba(64, 74, 105, 0.05);
 }
-.our-service-two .single-service i {font-size: 55px;color: #7991ae;}
+.our-service-two .single-service i {
+  font-size: 55px;
+  /* color: #7991ae; */
+  color: rgba(255,217,1,1);
+}
 .our-service-two .single-service h5 a {font-weight: 500;margin: 20px 0 15px 0;color: #292c32;}
 .our-service-two .single-service p {font-size: 15px;line-height: 28px;}
 
@@ -844,7 +868,9 @@ color: white;}
   color: white;
 }
 .theme-footer h2{
-  color: white;
+   color: white;
+   
+   
 }
 .footer-logo .logo{
   height: 100px ;
@@ -880,19 +906,42 @@ color: white;}
 .theme-footer .footer-bottom-wrapper .mail-address {
   font-weight: 500;
   font-size: 16px;
-  color: #222222;
+  color: #fff;
   margin: 25px 0 15px 0;
   display: block;
 }
-.theme-footer .footer-bottom-wrapper .phone-number {font-size: 20px;color: #bebebe;}
+.theme-footer .footer-bottom-wrapper .mail-address:hover{
+  color: rgb(255,217,1);
+}
+.theme-footer .footer-bottom-wrapper .phone-number:hover{
+  color: rgb(255,217,1);
+}
+
+.theme-footer .footer-bottom-wrapper .phone-number {font-size: 20px;color: #fff;}
 .theme-footer .footer-bottom-wrapper h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 35px;
+  /* color: white;
+   */
+   color: rgb(255,217,1);
+}
+
+.footer_center a{
   color: white;
 }
+
+.footer_center a:hover{
+  color: rgb(255,217,1) ;
+}
+
+ /* .mail-address{
+  color: white;
+} */
+
+/* footer copywhite */
 .theme-footer .footer-bottom-wrapper .footer-list ul li a {color: #adadad;line-height: 40px;}
 .theme-footer .copyright-wrapper p {
   font-family: 'Poppins', sans-serif;
