@@ -463,16 +463,15 @@ body .theme-button {
 } */
 
 
- .lien_titre{
+  a .nav-link.lien_titre{
   color: blue;
 }
-.lien_titre:hover {
+a.nav-link.lien_titre:hover {
   border: solid 2px;
   border-radius: 20px;
-  background-color: FFD901;
-  background: FFD901;
+  background-color: #FFD901;
   color: blue;
-  ;
+  
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -491,8 +490,9 @@ body .theme-button {
   font-size: 25px;
 }
 
-.hamburger{
+#hamburger{
   margin-left: 80%;
+  margin-top: 30px;
 }
 
   /* .navnav{
@@ -522,7 +522,9 @@ body .theme-button {
     box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
   -webkit-animation: menu_sticky 0.7s ease-in-out;
   animation: menu_sticky 0.7s ease-in-out;
-  /* height: 150px; */
+  height: 130px;
+  border-radius: 10px;
+  border-bottom: 1px solid blue;
 }
 /*---------------------------- Theme Main Banner -------------------------*/
 .camera_wrap {float:none;}
@@ -794,6 +796,19 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,251,1,1) 42
 }
 .our-service-two .single-service h5 a {font-weight: 500;margin: 20px 0 15px 0;color: #292c32;}
 .our-service-two .single-service p {font-size: 15px;line-height: 28px;}
+
+.our-service .single-service .image-box {
+  overflow: hidden;
+  background: #1e315d;
+  /* width: 255px; */
+  max-height: 170px;
+  border-top: 1px solid;
+    border-top-color: currentColor;
+    border-top-style: solid;
+    border-top-width: 1px;
+  border-top-left-radius: 5px 5px;
+  border-top-right-radius: 5px 5px;
+}
 
 /*------------------------ About Home Section --------------------------*/
 .home-about-section {margin: 40px 0 125px 0;}

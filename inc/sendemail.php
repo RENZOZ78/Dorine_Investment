@@ -1,7 +1,7 @@
 <?php
 
     // method1
-    $to = "didierbap@gmail.com";
+    $to = "info@dofinvest.fr";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
      $headers = "From: $from";
