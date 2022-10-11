@@ -360,9 +360,13 @@ body .theme-button {
   font-size: 40px;  
   font-family: 'Marcellus SC', serif;
 
-padding-top: 10px;
-padding-left: 120px;
-line-height: 40px;
+  padding-top: 10px;
+  padding-left: 40px;
+  line-height: 40px;
+}
+
+.sub_header{
+  display: flex;
 }
 
 /*------------------------------ Theme menu ----------------------*/
@@ -438,7 +442,63 @@ line-height: 40px;
   position: absolute;
   top:4px;
   right:5px;
+
+  
 }
+
+.list-unstyled {
+    list-style: none;
+  }
+
+#navbarNav{
+  width: 70vh;
+}
+
+/* .nav-item:hover{
+  background-color: #104587;
+  border-radius: 20px;
+  border-width: 30px;
+  border: 2px solid blue;
+  color: white;
+} */
+
+
+ .lien_titre{
+  color: blue;
+}
+.lien_titre:hover {
+  border: solid 2px;
+  border-radius: 20px;
+  background-color: FFD901;
+  background: FFD901;
+  color: blue;
+  ;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: blue;
+  font-size: 25px;
+  font-family: 'Marcellus SC', serif;
+  transition: all ease-in-out 0.5s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: blue;
+  font-size: 27px;
+  background: #FFD901;
+}
+.navbar-light .navbar-nav .active .nav-link{
+  color: blue;
+  font-size: 25px;
+}
+
+.hamburger{
+  margin-left: 80%;
+}
+
+  /* .navnav{
+    width: 70vh;
+  } */
+
 /*================= Sticky Menu ===============*/
 @-webkit-keyframes menu_sticky {
   0%  {margin-top:-120px;opacity: 0;}
@@ -598,10 +658,29 @@ a.tran3s{
   font-weight: 600;
   line-height: 32px;
 }
+
+.our-service .single-service .text h5 {
+  font-weight: 600;
+}
+
+.our-service .single-service .text p, .our-service .single-service .text h5{
+  text-align: start;
+}
 .our-service.service-inner-page .single-service .text h4 a {font-size: 24px;}
-.our-service .single-service .text p {font-size: 16px;margin-top: 10px;}
+.our-service .single-service .text p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: black;
+  
+}
 .our-service .single-service .icon img {margin: 0 auto;}
 .our-service .single-service .icon {padding-top: 65px;}
+
+ i.bi.bi-circle-fill{
+  width: 20px;
+  height: 20px;
+  display: inline list-item;
+}
 
 .border_services{
   
@@ -617,6 +696,18 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,251,1,1) 42
 .single-service .text{
   background-color: rgb(255,199,1);
   border-radius: 5px;
+}
+
+.single-service i{
+  text-align: start;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.single-service h5{
+  width: 100%;
+  text-align: start;
+  padding-bottom: 10px;
 }
 
 .services{

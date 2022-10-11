@@ -26,7 +26,13 @@
 @media (max-width: 1199px) {
   .about-us-section .text-wrapper {padding-left: 0;}
   .contact-us-form {padding-right: 0;}
+  
+  .titre_site {    
+    font-size: 35px;    
+    line-height: 35px;
+  }
 }
+
 
 
 /*(min-width: 992px) and (max-width: 1199px)*************************/
@@ -40,6 +46,17 @@
   .home-about-section .right-side {width: 60%;}
   .our-service-two .single-service {padding-left: 20px;}
   .testimonial-section .text p {font-weight: 20px;}
+
+  .logo{
+    width: 100px;
+    height: 113px;
+  }
+  img{
+    height: 113px;
+    width: 100px;
+    max-width: fit-content;
+  }
+
 }
 
 
@@ -72,9 +89,13 @@
     right:15px;
     top:0;
     z-index: 1000;
+    /* width: 100%; */
+    width: -webkit-fill-available;
     /* text-align: center; */
    
   }
+  
+
   .main-menu-wrapper .right-widget>ul>li {
     line-height: 60px;
   }
@@ -96,6 +117,10 @@
   #mega-menu-wrapper .nav>li>a{
     font-size: 25px;
     height: 35px;
+  }
+
+  #hamburger{
+    margin-left: 80%;
   }
 
   /* FEATURE BANNER  *************/
@@ -171,6 +196,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .home-about-section .right-side .opacity .main-content {max-width: 720px;}
+  
 }
 
 
@@ -237,6 +263,18 @@
   .footer_center{
     justify-content: center;
   }
+
+  .footer_center h4{
+    text-align: start;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .footer_center li {
+    text-align: start;
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 
@@ -278,6 +316,48 @@
   .consultation-form .form-wrapper textarea {height: 200px;}
   .theme-main-header .top-header .right-widget>li {line-height: 35px;}
   .theme-main-header .top-header {padding-bottom: 10px;}
+
+  .single-service i{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .single-service h5{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .navbar-light .navbar-nav .lien_titre{
+    border-radius: 0;
+    border: 0;
+  }
+  .consultation-form .form-wrapper textarea{
+    border: 1px solid blue;
+  }
+  
+  .consultation-form .form-wrapper input{
+    border: 1px solid blue;
+  }
+
+  .consultation-form .form-wrapper select{
+    border: 1px solid blue;
+  }
+
+   /* #exampleSelect1 .form-control{
+    border: 1px solid blue;
+  } */
+  .consultation-form .form-wrapper .form-control{
+    border: 1px solid blue;
+  }
+
+  .footer_center li {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+
 }
 
 
@@ -290,6 +370,17 @@
         top: calc(50% - 50px);
         left: 7%;
         padding: 30px 10px;
+    }
+    .footer_center h4{
+      text-align: start;
+      width: 50%;
+      margin: 0 auto;
+    }
+  
+    .footer_center li {
+      text-align: start;
+      width: 50%;
+      margin: 0 auto;
     }
     
 }
@@ -308,6 +399,19 @@
   .footer-info{
     display: block;
   }
+
+  .footer_center h4{
+    text-align: start;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .footer_center li {
+    text-align: start;
+    width: 50%;
+    margin: 0 auto;
+  }
+
   .entete{
     height: 100px;
   }
@@ -317,7 +421,29 @@
   } 
   .titre_site{
     font-size: 30px;
-    padding-left: 120px;
+    padding-left: 60px;
+  }
+
+  .our-service-two .single-service i{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .single-service h5{
+    text-align: center;
+  }
+
+  .our-service-two .single-service:hover{
+    border: 2px solid gold;
+    border-radius: 10px;
+    cursor: pointer ;
+    color: black;    
+
+  }
+
+  .our-service-two .single-service p:hover{
+    font-size: 17px; 
+    transition: all ease-in-out .5s;  
 
   }
 }
@@ -342,7 +468,7 @@
   }
   .titre_site{
     font-size: 25px;
-    padding-left: 120px;
+    padding-left: 10px;
 
   }
 }

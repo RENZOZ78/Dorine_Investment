@@ -5,19 +5,36 @@
 		<!-- For IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<!-- For Resposive Device -->
+		<!-- For Responsive Device -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<title>Dorine Finance Investment - Business And Finance </title>
 
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/DorineLogoB.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 
 
 		 <!-- Main style sheet  -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+
 		<!-- responsive style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+		<!-- font awesome -->
+		<!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+		<!-- css ekko librairie -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js">
+
+		<!-- css aos librairie -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		
+		
+		
+		
+		
 
 
 		<!-- Fix Internet Explorer ______________________________________-->
@@ -93,10 +110,12 @@
 
 				
 				<div class="main-menu-wrapper clearfix">
-					<div class="container clearfix">
+					<div class="container clearfix sub_header">
+
 						<!-- Logo -->
 						<div class="logo float-left"><a href="#acceuil"><img src="images/logo/Df3.png" alt="Logo"></a></div>
 
+						<!-- titre -->
 						<h1 class="titre_site"><span>DORINE</span> <br>  <span>FINANCE</span> <br> <span>INVESTMENT</span>  </h1>
 
 						<!-- <div class="right-widget float-right">
@@ -118,53 +137,25 @@
 						<!-- /.right-widget -->
 
 						<!-- ============================ Theme Menu ========================= -->
-						<nav class="navbar-expand-lg float-right navbar-light" id="mega-menu-wrapper">
-					    	<button class="navbar-toggler float-right clearfix" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<nav class="navbar navbar-expand-lg float-right navbar-light MegaMenu" id="mega-menu-wrapper">
+
+					    	<button class="navbar-toggler float-right clearfix " id="hamburger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					    		<i class="flaticon-menu-options"></i>
 					    	</button>
-					    	<div class="collapse navbar-collapse clearfix" id="navbarNav">
-					    	  <ul class="navbar-nav nav">
-					    	    <li class="nav-item active"><a class="nav-link" href="#acceuil">Acceuil</a></li>
-					    	    <!-- <li class="nav-item dropdown-holder"> -->
-								<li class="nav-item active"><a class="nav-link" href="#services">Services</a></li>
-					    	    	<!-- <a class="nav-link" href="#">Services</a> -->
-					    	    	<!-- <ul class="sub-menu"> -->
-<!--                     <li><a href="about-us.html">A propos</a></li>
- -->										
- 												<!-- <li><a href="#about">A propos</a></li> -->
-<!--                     <li><a href="service-v1.html">Nos services</a></li>
- -->										
- 									<!-- <li><a href="#services">Nos services</a></li> -->
-										<!-- <li><a href="service-v2.html">Service v-2</a></li>
-										<li><a href="service-details.html">Service details</a></li> -->
-<!--                     <li><a href="testimonial.html">Avis clients</a></li>
- -->										
- 									<!-- <li><a href="#avis">Avis clients</a></li> -->
-										<!-- <li><a href="faq.html">faq</a></li>
-										<li><a href="error.html">Error</a></li> -->
-									<!-- </ul> -->
-					    	    <!-- </li> -->
-						<!--    <li class="nav-item dropdown-holder">
-					    	      <a class="nav-link" href="#">Page</a>
-					    	      <ul class="sub-menu">
-					    	        <li><a href="portfolio-v1.html">Portfolio V-1</a></li>
-									<li><a href="portfolio-v2.html">Portfolio V-2</a></li>
-									<li><a href="portfolio-v3.html">Portfolio V-3</a></li>
-									<li><a href="portfolio-v4.html">Portfolio V-4</a></li>
-									<li><a href="portfolio-details.html">Portfolio details</a></li>
-									<li><a href="team.html">Team</a></li>
-								  </ul>
-					    	    </li> -->
-					    	    <!-- <li class="nav-item dropdown-holder">
-					    	      <a class="nav-link" href="#">Blog</a>
-					    	      <ul class="sub-menu">
-									<li><a href="blog-grid.html">Blog grid</a></li>
-									<li><a href="blog-sidebar.html">Blog List With Sidebar</a></li>
-									<li><a href="blog-details.html">Blog Details</a></li>
-								  </ul>
-					    	    </li> -->
-					    	    
-								<li class="nav-item active"><a class="nav-link" href="#consultations">Contact</a></li>
+
+					    	<div class="collapse navbar-collapse clearfix navnav" id="navbarNav">
+					    	  <ul class="navbar-nav ">
+					    	    <li  class="nav-item active ">
+									<a class="nav-link lien_titre" href="#">Accueil</a>
+								</li>
+					    	
+								<li class="nav-item  ">
+									<a class="nav-link lien_titre" href="#services">Services</a>
+								</li>
+
+								<li class="nav-item  ">
+									<a class="nav-link lien_titre" href="#consultations">Contact</a>
+								</li>
 					    	  </ul>
 					    	</div>
 						</nav>
@@ -276,31 +267,31 @@
 					</div> <!-- /.theme-title -->
 					<div class=" services">
 						<div class="col-lg-3 col-6 border_services">
-							<div class="single-service  " >
+							<div class="single-service  " data-aos="fade-in" data-aos-duration="3000" >
 								<div class="image-box"><img src="images/home/service1b.jpg" alt=""></div>
 								<div class="text gradient-border " id="box2">
-									<h4><a href="service-details.html">Conseil en investissement financier</a></h4>
-									<p>Recommandation des instruments financiers</p>
-									<p>Ouverture de compte titre ordinaire, PME, PEA</p>
-									<p>Investir dans les fonds d'investissement avec les tickets d'entrées</p>
-									<p>Passage et retransmission des ordres (Bourse)</p>
+									<h4><a href="service-details.html">Conseil en investissement financier.</a></h4>
+									<p><i class="bi bi-circle-fill"></i>Recommandation des instruments financiers.</p>
+									<p><i class="bi bi-circle-fill"></i>Ouverture de compte titre ordinaire, PME, PEA.</p>
+									<p><i class="bi bi-circle-fill"></i>Investir dans les fonds d'investissement avec les tickets d'entrées.</p>
+									<p><i class="bi bi-circle-fill"></i>Passage et retransmission des ordres (Bourse).</p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-service -->
 						</div> <!-- /.col- -->
+
+
 						<div class="col-lg-3 col-6 border_services">
-							<div class="single-service">
+							<div class="single-service" data-aos="fade-in" data-aos-duration="3000">
 								<div class="image-box"><img src="images/home/service2.jpg" alt=""></div>
 								<div class="text">
 									<h4><a href="service-details.html">Conseil en gestion de patrimoine</a></h4> 
 									<!-- <h5>Particulier</h5> -->
-									<p>Optimisation de l'épargne</p>
-									<p>Protection de la famille</p>
-									<p>Préparation de la retraite</p>
-									<p>Organisme de transmission du patrimoine</p>
-									<p>Optimisation de la fiscalité</p>
-									
-									
-									
+									<p><i class="bi bi-circle-fill"></i>Optimisation de l'épargne.</p>
+									<p><i class="bi bi-circle-fill"></i>Protection de la famille.</p>
+									<p><i class="bi bi-circle-fill"></i>Préparation de la retraite.</p>
+									<p><i class="bi bi-circle-fill"></i>Organisme de transmission du patrimoine.</p>
+									<p><i class="bi bi-circle-fill"></i>Optimisation de la fiscalité.</p>	
+									<p><i class="bi bi-circle-fill"></i>Conseil en immobilier.</p>						
 									
 									
 									
@@ -308,34 +299,33 @@
 							</div> <!-- /.single-service -->
 						</div> <!-- /.col- -->
 						<div class="col-lg-3 col-6 border_services">
-							<div class="single-service">
+							<div class="single-service" data-aos="fade-in" data-aos-duration="3000">
 								<div class="image-box"><img src="images/home/service3.jpg" alt=""></div>
 								<div class="text">
-									<h4><a href="service-details.html">Finance d'entreprise</a></h4> <br>
-									
+									<h4><a href="service-details.html">Finance d'entreprise</a></h4> <br>									
 
 									<h5>Cession acquisition:</h5>
-									<p>Mise en relation entre acquéreur et vendeur</p>
-									<p>Estimation de le l'entreprise (gratuite)</p>
-									<p>Accompagnement dans les différents montage de financement</p> <br>
+									<p><i class="bi bi-circle-fill"></i>Mise en relation entre acquéreur et vendeur.</p>
+									<p><i class="bi bi-circle-fill"></i>Estimation de le l'entreprise (gratuite).</p>
+									<p><i class="bi bi-circle-fill"></i>Accompagnement dans les différents montage de financement.</p> <br>
 
 									<h5>Professionelle et Association:</h5>
-										<p>Optimisation et rémunération du dirigeant</p>
-										<p>Mise en place d'un PEE/PERO</p>
-										<p>Protection sociale des salariés</p>
-										<p>Rentabilité de vos placements de trésorerie</p>
+										<p><i class="bi bi-circle-fill"></i>Optimisation et rémunération du dirigeant.</p>
+										<p><i class="bi bi-circle-fill"></i>Mise en place d'un PEE/PERO.</p>
+										<p><i class="bi bi-circle-fill"></i>Protection sociale des salariés.</p>
+										<p><i class="bi bi-circle-fill"></i>Rentabilité de vos placements de trésorerie.</p>
 								</div> <!-- /.text -->
 							</div> <!-- /.single-service -->
 						</div> <!-- /.col- -->
 						<div class="col-lg-3 col-6 border_services">
-							<div class="single-service">
+							<div class="single-service" data-aos="fade-in"data-aos-duration="3000">
 								<div class="image-box"><img src="images/home/service4.jpg" alt=""></div>
 								<div class="text">
 									<h4><a href="service-details.html">Etude de projet</a></h4>
-									<p>Etude de projet</p>
-									<p>Business plan et prévisionnel</p>
-									<p>La levée des fonds (valeur de votre entreprise)</p>
-									<p>Conseil de haut bilan</p> <br>
+									<p><i class="bi bi-circle-fill"></i>Etude de projet.</p>
+									<p><i class="bi bi-circle-fill"></i>Business plan et prévisionnel.</p>
+									<p><i class="bi bi-circle-fill"></i>La levée des fonds (valeur de votre entreprise).</p>
+									<p><i class="bi bi-circle-fill"></i>Conseil de haut bilan.</p> 
 								</div> 
 									<!-- /.text -->
 							</div> <!-- /.single-service -->
@@ -376,115 +366,7 @@
 			</div> <!-- /.home-about-section -->
 
 
-			<!-- 
-			=============================================
-				Service2
-			============================================== 
-			-->
-			<!-- <div class="our-service-two" id="services2">
-				<div class="container">
-					<div class="theme-title text-center">
-						<h2>Our Services</h2>
-						<p>We provide all kind of business, finance & consulting services.</p>
-					</div>  -->
-					<!-- /.theme-title -->
-					<!-- <div class="row">
-						<div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-building-o" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Investment Banking</a></h5>
-								<p>Viamus aliquet rutrus duia variu sath eu Mauris ornoare tortor. Dosi quality fact. ipsum ample text.</p>
-							</div>  -->
-							<!-- /.single-service -->
-						</div> <!-- /.col- -->
-
-						<!-- <div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-briefcase" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Google Analyize</a></h5>
-								<p>Viamus aliquet rutrus duia variu sath eu Mauris ornoare tortor. Dosi quality fact. ipsum ample text.</p>
-							</div>  -->
-							<!-- /.single-service -->
-						<!-- </div>  -->
-						<!-- /.col- -->
-
-						<!-- <div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-money" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Sales & Trading</a></h5>
-								<p>Viamus aliquet rutrus duia variu sath eu Mauris ornoare tortor. Dosi quality fact. ipsum ample text.</p>
-							</div> /.single-service -->
-						</div> <!-- /.col- -->
-
-						<!-- <div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-bar-chart" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Market Research</a></h5>
-								<p>Viamus aliquet rutrus duia variu sath eu Mauris ornoare tortor. Dosi quality fact. ipsum ample text.</p>
-							</div>  -->
-							<!-- /.single-service -->
-						<!-- </div>  -->
-						<!-- /.col- -->
-
-						<!-- <div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-user" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Financial Advise</a></h5>
-								<p>Viamus aliquet rutrus duia variu sath eu Mauris ornoare tortor. Dosi quality fact. ipsum ample text.</p>
-							</div>  -->
-							<!-- /.single-service -->
-						<!-- </div>  -->
-						<!-- /.col- -->
-
-						<!-- <div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-line-chart" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Business Consulting</a></h5>
-								<p>Viamus aliquet rutrus duia variu sath eu Mauris ornoare tortor. Dosi quality fact. ipsum ample text.</p>
-							</div>  -->
-							<!-- /.single-service -->
-						<!-- </div>  -->
-						<!-- /.col- -->
-
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</div> <!-- /.our-service-two -->
-
-
-			<!-- 
-			=============================================
-				Feature Banner - Notre objectif
-			============================================== 
-			-->
-			<div class="feature-banner bg-one">
-				<div class="opacity overlay-one">
-					<div class="container">
-						<div class="theme-title text-center">
-							<h2>Notre objectif est de mener a bien vos prochains <br>projets financiers</h2>
-						</div> <!-- /.theme-title -->
-						<div class="row">
-							<div class="col-sm-4 col-12">
-								<div class="single-box">
-			        				<h2 class="number"><span class="timer" data-from="0" data-to="15000" data-speed="1200" data-refresh-interval="5">0</span>+</h2>
-			        				<p>La Satisfaction des clients <br> En chiffre</p>
-			        			</div> <!-- /.single-box -->
-							</div>  <!-- /.col- -->
-							<div class="col-sm-4 col-12">
-								<div class="single-box">
-			        				<h2 class="number"><span class="timer" data-from="0" data-to="120" data-speed="1200" data-refresh-interval="5">0</span>+</h2>
-			        				<p>Nos projets internationaux  <br>En chiffre</p>
-			        			</div> <!-- /.single-box -->
-							</div>  <!-- /.col- -->
-							<div class="col-sm-4 col-12">
-								<div class="single-box">
-			        				<h2 class="number"><span class="timer" data-from="0" data-to="37500" data-speed="1200" data-refresh-interval="5">0</span>+</h2>
-			        				<p>Nos Projets complètés <br>En chiffre</p>
-			        			</div> <!-- /.single-box -->
-							</div>  <!-- /.col- -->
-						</div> <!-- /.row -->
-					</div> <!-- /.container -->
-				</div> <!-- /.opacity -->
-			</div> <!-- /.feature-banner -->
+			
 
 
 			<!-- 
@@ -492,89 +374,7 @@
 				Our Portfolio - ETUDES DE CAS
 			============================================== 
 			-->
-			<!-- <div class="our-portfolio portfolio-grid">
-				<div class="container">
-					<div class="theme-title text-center">
-						<h2>Études de cas</h2>
-						<p>Nous réalisons vos services d'entreprise, de finance et de conseil</p> -->
-					<!-- </div>  -->
-					<!-- /.theme-title -->
-	        		<!-- <div class="row">
-						<div class="col-lg-4 col-sm-6 col-12">
-							<div class="single-item">
-								<div class="image-box">
-									<div class="img"><img src="images/portfolio/15.jpg" alt=""></div>
-									<div class="overlay"><a href="portfolio-details.html" class="link"><i class="fa fa-link" aria-hidden="true"></i></a></div>
-								</div>  -->
-								<!-- /.image-box -->
-							<!-- </div>  -->
-							<!-- /.single-item -->
-						<!-- </div>  -->
-						<!-- /.col-md-6 -->
-						<!-- <div class="col-lg-4 col-sm-6 col-12">
-							<div class="single-item">
-								<div class="image-box">
-									<div class="img"><img src="images/portfolio/16.jpg" alt=""></div>
-									<div class="overlay"><a href="portfolio-details.html" class="link"><i class="fa fa-link" aria-hidden="true"></i></a></div>
-								</div>  -->
-								<!-- /.image-box -->
-							<!-- </div>  -->
-							<!-- /.single-item -->
-						<!-- </div>  -->
-						<!-- /.col-md-6 -->
-						<!-- <div class="col-lg-4 col-sm-6 col-12">
-							<div class="single-item">
-								<div class="image-box">
-									<div class="img"><img src="images/portfolio/17.jpg" alt=""></div>
-									<div class="overlay"><a href="portfolio-details.html" class="link"><i class="fa fa-link" aria-hidden="true"></i></a></div>
-								</div>  -->
-								<!-- /.image-box -->
-							<!-- </div>  -->
-							<!-- /.single-item -->
-						<!-- </div>  -->
-						<!-- /.col-md-6 -->
-						<!-- <div class="col-lg-4 col-sm-6 col-12">
-							<div class="single-item">
-								<div class="image-box">
-									<div class="img"><img src="images/portfolio/18.jpg" alt=""></div>
-									<div class="overlay"><a href="portfolio-details.html" class="link"><i class="fa fa-link" aria-hidden="true"></i></a></div> -->
-								<!-- </div> -->
-								<!-- /.image-box -->
-							<!-- </div>  -->
-							<!-- /.single-item -->
-						<!-- </div>  -->
-						<!-- /.col-md-6 -->
-						<!-- <div class="col-lg-4 col-sm-6 col-12">
-							<div class="single-item">
-								<div class="image-box">
-									<div class="img"><img src="images/portfolio/19.jpg" alt=""></div>
-									<div class="overlay"><a href="portfolio-details.html" class="link"><i class="fa fa-link" aria-hidden="true"></i></a></div>
-								</div>  -->
-								<!-- /.image-box -->
-							<!-- </div> -->
-							 <!-- /.single-item -->
-						<!-- </div> -->
-						 <!-- /.col-md-6 -->
-						<!-- <div class="col-lg-4 col-sm-6 col-12">
-							<div class="single-item">
-								<div class="image-box">
-									<div class="img"><img src="images/portfolio/20.jpg" alt=""></div>
-									<div class="overlay"><a href="portfolio-details.html" class="link"><i class="fa fa-link" aria-hidden="true"></i></a></div>
-								</div> -->
-								 <!-- /.image-box -->
-							<!-- </div> -->
-							 <!-- /.single-item -->
-						<!-- </div> -->
-						 <!-- /.col-md-6 -->
-					<!-- </div>  -->
-					<!-- /.row -->
-					<!-- <div class="all-project-button"><a href="portfolio-v1.html">See All Projects</a></div> -->
-				<!-- </div>  -->
-				<!-- /.container -->
-			<!-- </div>  -->
-			<!-- /.our-portfolio -->
-
-			<!--okok -->
+			
 
 
 				<div class="our-service-two" id="services2">
@@ -585,25 +385,27 @@
 					</div> 
 					<!-- /.theme-title -->
 					<div class="row">
-						<div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-building-o" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Optimisation</a></h5>
+						<div class="col-lg-4 col-sm-6" data-aos="fade-right" data-aos-duration="2000">
+							<div class="single-service" >
+								<i class="fa fa-building" aria-hidden="true" ></i><br>
+								<h5>Optimisation</h5>
 								<p>
-									Après une étude rigoureuse de votre dossier, un conseiller Dorine Finance investment réalisera un bilan patrimonial. <br>Ceci afin d'optimiser vos placements et d'optimiser vos finances. A l'image de Miranda B., vous pourrez valoriser votre capital dans le temps.
+									Après une étude rigoureuse de votre dossier, un conseiller de Dorine Finance investment réalisera un bilan patrimonial afin d'optimiser vos placements et optimiser vos finances. <br> A l'image de Miranda.B, vous pourrez valoriser votre capital dans le temps.
 
 									</p>
 							</div> 
 							<!-- /.single-service -->
 						</div> <!-- /.col- -->
 
-						<div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-briefcase" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Diversification</a></h5>
-								<p>Vous souhaitez diversifier les risques? ne pas investir tout votre capital uniquement dans le meme direction?<br>
+						<div class="col-lg-4 col-sm-6" data-aos="fade-right"data-aos-duration="2000">
+							<div class="single-service " >
+								<i class="fa fa-briefcase" aria-hidden="true"></i><br>
 
-									Chez Dorine Finance Investment nous vous préparons un panel de placements financiers diversifés, complémentaires et optimisés à cet effet.<br> C'est ainsi que Samia T. a pu élargir son portefeuille d'actifs et diminuer les risques de son capital.
+								<h5>Diversification</h5>
+								<p>Vous souhaitez diversifier les risques?<br>
+									 Ne pas investir tout votre capital dans le meme direction?<br>
+									Chez Dorine Finance Investment nous vous préparons un panel de placements financiers diversifés, complémentaires et optimisés à cet effet.<br> 
+									C'est ainsi que Samia.T a pu élargir son portefeuille d'actifs et diminuer les risques de son capital.
 
 									
 									</p>
@@ -613,11 +415,11 @@
 						<!-- /.col- -->
 
 						 <div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-money" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Transmission</a></h5>
+							<div class="single-service" data-aos="fade-right" data-aos-duration="2000">
+								<i class="fa fa-money" aria-hidden="true"></i><br>
+								<h5>Transmission</h5>
 								<p>
-									Les conseillers de Dorine Finance Investment vous proposerons les placements les plus judicieux pour vous et vos enfants.<br> Alors pour vous, comme pour Patrick S., la transmission de votre patrimoine se réalisera de façon limpide et optimisée fiscalement.
+									Les conseillers de Dorine Finance Investment vous proposerons les placements les plus judicieux pour vous et vos enfants.<br> Comme pour Patrick.S, la transmission de votre patrimoine se réalisera de façon limpide et optimisée fiscalement.
 									
 									</p>
 							</div>  
@@ -625,11 +427,11 @@
 						</div> <!-- /.col- -->
 
 						<div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-bar-chart" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Prévision</a></h5>
-								<p>Perte de revenus, retraite, nombreuse sont les situations qui peuvent altérer votre votre quotidien ou votre futur. <br>
-									Avec Dorine Finance investment Marion F. a pu faire le points sur toutes les éventualités. Puis un conseiller lui a proposer une solution de placement éfficace et optimisée pour son futur.
+							<div class="single-service" data-aos="fade-right" data-aos-duration="2000">
+								<i class="fa fa-bar-chart" aria-hidden="true"></i><br>
+								<h5> Prévision </h5>
+								<p>Perte de revenus, retraite, nombreuses sont les situations qui peuvent altérer votre votre quotidien ou votre futur. <br>
+									Avec Dorine Finance investment Marion.F a pu faire le point sur toutes les éventualités. Puis un conseiller lui a proposer une solution de placement éfficace et optimisée pour son futur.
 									.</p>
 							</div> 
 							<!-- /.single-service -->
@@ -637,10 +439,10 @@
 						<!-- /.col- -->
 
 						<div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-user" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Dynamisme</a></h5>
-								<p>Grâce à Dorine Finance Investment Margueritte H. a pu placer son capital en toute quiétude. Elle a pu mieux assurer ses placements financiers et profiter de rendements très avantageux.
+							<div class="single-service" data-aos="fade-right" data-aos-duration="2000">
+								<i class="fa fa-user" aria-hidden="true"></i><br>
+								<h5 >Dynamisme</h5>
+								<p  >Grâce à Dorine Finance Investment Margueritte.H a pu placer son capital en toute quiétude. Elle a pu mieux assurer ses placements financiers et profiter de rendements très avantageux.
 									.</p>
 							</div> 
 							<!-- /.single-service -->
@@ -648,12 +450,13 @@
 						<!-- /.col- -->
 
 						<div class="col-lg-4 col-sm-6">
-							<div class="single-service">
-								<i class="fa fa-line-chart" aria-hidden="true"></i>
-								<h5><a href="service-details.html">Préparation</a></h5>
-								<p>Vous avez des projets d'investissement? Vous voulez aider vos enfants puorleur études?<br>
+							<div class="single-service" data-aos="fade-right" data-aos-duration="2000">
+								<i class="fa fa-line-chart" aria-hidden="true"></i><br>
+								<h5 >Préparation</h5>
+								<p  >Vous avez des projets d'investissement? Vous voulez aider vos enfants pour leurs études?<br>
 									
-									Chez Dorine Finance Investment, nous étudierons les meilleurs solutions pour vous mettre en place le meilleur package financier et vous permettre de dégager des rendements à long terme. Ainsi Gérad T. a pu donner un coup de pouce à ses enfants et leur permettre de mieux démarrer dans la vie (études, permis de conduire, logement,...).
+									Chez Dorine Finance Investment, nous étudierons les meilleurs solutions pour vous mettre en place le meilleur package financier et vous permettre de dégager des rendements à long terme. <br>
+									Ainsi Gérad.T a pu donner un coup de pouce à ses enfants et leur permettre de mieux démarrer dans la vie (études, permis de conduire, logement,...).
 									.</p>
 							</div> 
 							<!-- /.single-service -->
@@ -754,26 +557,32 @@
 							<div class="form-wrapper">
 								<div class="theme-title">
 									<h2>Envoyer le message</h2>
+
 								</div> <!-- /.theme-title -->
-								<form action="#">
+
+								<!-- formulaire contact -->
+								<form action="./inc/sendemail.php" method="post" >
 									<div class="row">
 										<div class="col-md-6 order-md-last">
-											<textarea placeholder="Message"></textarea>
+											<textarea placeholder="Message" name="message"></textarea>
 										</div>
 										<div class="col-md-6 order-md-first">
-											<input type="text" placeholder="Nom">
-											<input type="email" placeholder="Email">
-											<select class="form-control" id="exampleSelect1">
+											<input type="text" placeholder="Nom" name="name">
+											<input type="email" placeholder="Email" name="email">
+											<select class="form-control" id="exampleSelect1" name="sub">
 										      <option>Sujet du message</option>
 										      <option>Conseil en Investissement</option>
 										      <option>Conseil en gestion du patrimoine</option>
 										      <option>Etudes des projets</option>
 										      <option>Finance d'entreprise</option>
 										    </select>
-										    <button class="form-button">Obtenir une rendez-vous gratuit</button>
+											<input type="submit" class="form-button" value="Envoyer mon message">
+										    <!-- <button class="form-button">Obtenir une rendez-vous gratuit</button> -->
 										</div>
 									</div>
 								</form>
+
+
 							</div>
 						</div>
 					</div>
@@ -783,52 +592,7 @@
 
 
 
-			<!--
-			=====================================================
-				Latest Update
-			=====================================================
-			-->
-			<!-- <div class="latest-update" id="news">
-				<div class="container">
-					<div class="theme-title">
-						<h2>Check what happen inside <br>our company.</h2>
-						<a href="blog-grid.html">GO TO NEWS</a> -->
-					<!-- </div>  -->
-					<!-- /.theme-title -->
-
-					<!-- <div class="news-slider">
-						<div class="item">
-							<div class="single-update-post">
-								<div class="image-box"><img src="images/blog/16.jpg" alt=""></div>
-								<div class="date">September 13, 2017</div>
-								<h4><a href="blog-details.html">The Advantages Minimal Repair Technique.</a></h4>
-								<a href="blog-details.html" class="read-more"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-							</div>  -->
-							<!-- /.single-update-post -->
-						<!-- </div>  -->
-						<!-- /.col- -->
-						<!-- <div class="item">
-							<div class="single-update-post">
-								<div class="image-box"><img src="images/blog/17.jpg" alt=""></div>
-								<div class="date">October 27, 2017</div>
-								<h4><a href="blog-details.html">Effective Ways To Quit Smoking Fast.</a></h4>
-								<a href="blog-details.html" class="read-more"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-							</div>  -->
-							<!-- /.single-update-post -->
-						<!-- </div>  -->
-						<!-- /.col- -->
-						<!-- <div class="item">
-							<div class="single-update-post">
-								<div class="image-box"><img src="images/blog/18.jpg" alt=""></div>
-								<div class="date">August 15, 2017</div>
-								<h4><a href="blog-details.html">How To Stop Living Your Life On Autopilot</a></h4>
-								<a href="blog-details.html" class="read-more"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-							</div>  -->
-							<!-- /.single-update-post -->
-						</div> <!-- /.col- -->
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</div> <!-- /.latest-update -->
+			
 
 
 			<!--
@@ -838,46 +602,23 @@
 			-->
 			<footer class="theme-footer">
 				<div class="container">
-					<div class="content-wrapper">
-						<!-- <h2>Souscrire à notre newsletter !!</h2>
-						<form action="#" class="subscribe-form">
-							<div class="row">
-								<div class="col-lg-5 col-md-6 col-12">
-									<input type="text" placeholder="Nom complet">
-								</div>
-								<div class="col-lg-5 col-md-6 col-12">
-									<input type="email" placeholder="Email">
-								</div>
-								<div class="col-lg-2 col-12">
-									<input type="submit" value="Inscrivez-vous ">
-								</div>
-							</div> 
+					<div class="content-wrapper">						
 						
-						 </form>   -->
+						 </form>  
 						<!-- /.subscribe-form -->
 
-						<div class="footer-bottom-wrapper center row footer_center">
-
-							<!-- Footer Logo -->
-							<!-- <div class="col-lg-3 col-sm-6 col-12 footer-logo"> -->
-								<!-- <div class="logo"><a href="index.html"><img src="images/logo/Df3.png" alt="Logo"></a></div> -->
-								
-								<!-- <a href="#" class="mail-address">d.ngatia@dofinivest.com</a>
-								<a href="#" class="phone-number">06.05.52.45.25</a> -->
-							<!-- </div> -->
-							 <!-- /.footer-logo -->
+						<div class="footer-bottom-wrapper center row footer_center">							
 
 							<!-- footer contact -->
 							<div class="col-lg-4 col-md-4 col-sm-12 col-12 footer_center">
 								<h4>Contact</h4>
 								<ul>
 									<li>
-										<a href="#" class="mail-address">Mail: <br>d.ngatia@dofinivest.com</a>
+										<a href="mailto:d.ngatia@dofinivest.com?subject=Mail de notre site" class="mail-address">Mail: <br>d.ngatia@dofinivest.com</a>
 									</li>
 									<li>
 										<a href="#" class="phone-number">Tel: 06.05.52.45.25</a>
-									</li>
-									
+									</li>									
 								</ul>
 							</div> <!-- /.footer-list -->
 
@@ -905,15 +646,7 @@
 									<!-- <li><a href="blog-grid.html">Blog</a></li> -->
 								</ul>
 							</div> <!-- /.footer-list -->
-							<!-- <div class="col-lg-3 col-sm-6 col-12 footer-list">
-								<h4>Devenir membre</h4>
-								<ul>
-									<li><a href="#">Contributor</a></li>
-									<li><a href="#">Union Member</a></li>
-									<li><a href="#">Processing</a></li>
-									<li><a href="#">Legal Action</a></li>
-								</ul> -->
-							</div> <!-- /.footer-list -->
+							
 						</div> <!-- /.footer-bottom-wrapper -->
 
 						<div class="copyright-wrapper ">
@@ -951,8 +684,10 @@
 		<script src="vendor/jquery.2.2.3.min.js"></script>
 		<!-- Popper js -->
 		<script src="vendor/popper.js/popper.min.js"></script>
+
 		<!-- Bootstrap JS -->
 		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
 		<!-- Camera Slider -->
 		<script src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
 	    <script src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
@@ -974,4 +709,14 @@
 		<!-- Theme js -->
 		<script src="js/theme.js"></script>
 		</div> <!-- /.main-page-wrapper -->
+
+		 <!-- js ekko -->
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+		 <script src="app.js"></script>
+		 <!-- aos-librarie -->
+	   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	   <script>
+		 AOS.init();
+	   </script>
+
 	</body>
