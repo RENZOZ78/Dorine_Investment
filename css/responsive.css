@@ -1,18 +1,54 @@
 
 
-@media (min-width: 992px) {
-  .container {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
+
+
+
+@media (min-width: 1650px){
+
 }
+
+@media (min-width: 1200px)  and (max-width:1800px){
+  /* .navbar-nav {
+    margin-left: 80%;
+  } */
+
+}
+
+@media (min-width: 1200px){
+.container 
+   { max-width: 90%;}
+#mega-menu-wrapper{
+  width: 80%;
+  
+  }
+  .logo{
+    width: 100px;
+    height: 113px;
+  }
+
+  .navbar-light .navbar-nav .nav-link{
+    font-size: 35px;
+  }
+
+    img {
+      max-width: fit-content;
+      /* height: 100px; */
+      display: block;
+      width: 113px;
+  }
+
+  .main-menu-wrapper.fixed{
+    height: 150px;
+  }
+
+}
+
+/* MIN 1200 PX - MAX 1650PX********* *************/
 @media (max-width: 1650px) and (min-width: 1200px) {
 
 }
 
-
 /*(max-width: 1199px)***********************/
-
 @media (max-width: 1199px) {
   .about-us-section .text-wrapper {padding-left: 0;}
   .contact-us-form {padding-right: 0;}
@@ -23,10 +59,7 @@
   }
 }
 
-
-
 /*(min-width: 992px) and (max-width: 1199px)*************************/
-
 @media (min-width: 992px) and (max-width: 1199px) {
   .latest-update .single-update-post h4 a {font-size: 24px;line-height: 38px;}
   .inner-banner .overlay {padding: 120px 0 110px 0;}
@@ -46,11 +79,11 @@
     width: 100px;
     max-width: fit-content;
   }
-
 }
 
 
-/* MAX 991PX  *******************/
+
+/* MAX 991PX  ***********************************************************/
 
 @media (max-width: 991px) {
   .theme-title p {
@@ -84,6 +117,14 @@
     /* text-align: center; */
    
   }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    /* color: blue; */
+    border: 0;
+    border-radius: 0;
+    font-size: 27px !important;
+    background: gold !important;
+  }
   
 
   .main-menu-wrapper .right-widget>ul>li {
@@ -99,19 +140,21 @@
   #mega-menu-wrapper .navbar-collapse{
     /* padding-left: 100px; */
     width: 100%;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     border-radius: 20px;
     border: 5px solid #104587 ;
      text-align: center; 
+     margin: 0 10%;
   }
   #mega-menu-wrapper .nav>li>a{
     font-size: 25px;
     height: 35px;
   }
 
-  #hamburger{
-    margin-left: 80%;
-  }
+  /* #hamburger{
+    margin-left: 90%; */
+    /* margin-top: 30px !important;
+  } */
 
   /* FEATURE BANNER  *************/
   .feature-banner .single-box h2 {font-size: 30px;}
@@ -165,8 +208,11 @@
   .consultation-form .form-wrapper {padding: 50px 0 0 0;}
   .latest-update .theme-title h2 {margin-bottom: 0;}
   .latest-update .theme-title {margin-bottom: 40px;}
+
   .main-menu-wrapper{
-    height: 170px;
+    height: 150px;
+    border-bottom: 2px solid blue;
+    border-radius: 20px;
   }
 
   .social {
@@ -183,12 +229,10 @@
 } 
 
 /*(min-width: 768px) and (max-width: 991px)*************************/
-
 @media (min-width: 768px) and (max-width: 991px) {
   .home-about-section .right-side .opacity .main-content {max-width: 720px;}
   
 }
-
 
 /* MAX 767PX ******************************** */
 @media (max-width: 767px) {
@@ -248,7 +292,7 @@
   #theme-main-banner .camera_caption h1 {line-height: 62px;}
 }
 
-/* max 768px  */
+/* max 768px  ************************************/
 @media (max-width: 768px){
   .footer_center{
     justify-content: center;
@@ -269,7 +313,6 @@
 
 
 /*(max-width: 575px)************************************/
-
 @media (max-width: 575px) {
   .theme-menu-wrapper .top-header ul li:first-child {display: block;margin: 0 0 8px 0;}
   .theme-menu-wrapper .top-header ul li a {margin: 0 7px;}
@@ -303,7 +346,12 @@
   .testimonial-section .text {width: 100%; float: none !important;padding: 40px 0 0 0;}
   .testimonial-section,.consultation-form {padding: 60px 0 70px 0;}
   .testimonial-section .theme-title {padding-bottom: 60px;}
-  .consultation-form .form-wrapper textarea {height: 200px;}
+
+  .consultation-form .form-wrapper textarea {
+    height: 200px;
+    border: 1px solid blue;
+  border-radius: 10px;}
+
   .theme-main-header .top-header .right-widget>li {line-height: 35px;}
   .theme-main-header .top-header {padding-bottom: 10px;}
 
@@ -323,16 +371,16 @@
     border-radius: 0;
     border: 0;
   }
-  .consultation-form .form-wrapper textarea{
-    border: 1px solid blue;
-  }
+  
   
   .consultation-form .form-wrapper input{
     border: 1px solid blue;
+    border-radius: 10px;
   }
 
   .consultation-form .form-wrapper select{
     border: 1px solid blue;
+    border-radius: 10px;
   }
 
    /* #exampleSelect1 .form-control{
@@ -340,6 +388,7 @@
   } */
   .consultation-form .form-wrapper .form-control{
     border: 1px solid blue;
+    border-radius: 10px;
   }
 
   .footer_center li {
@@ -352,7 +401,6 @@
 
 
 /*(max-width: 650px)******************************************/
-
 @media (max-width: 650px) {
     #success, #error {
         width: 86%;
@@ -376,6 +424,7 @@
 }
 
 
+/* max width 570px ******************/
 @media (max-width:570px){
  
   .footer-logo .logo{    
@@ -411,7 +460,7 @@
   } 
   .titre_site{
     font-size: 30px;
-    padding-left: 60px;
+    padding-left: 20px;
   }
 
   .our-service-two .single-service i{
@@ -436,29 +485,41 @@
     transition: all ease-in-out .5s;  
 
   }
+  .main-menu-wrapper{
+    height: 130px;
+    border-bottom: 2px solid blue;
+    border-radius: 20px;
+  }
 }
 
+/* 500px ************************/
 @media (max-width: 500px) {
   .our-team .single-team-member .text-wrapper {width: 100%;padding: 25px 0 0 0;}
 }
 
+/* 450px *********************/
 @media (max-width: 450px) {
   .our-service [class*="col-"] { -ms-flex: 0 0 100%;-webkit-box-flex: 0;flex: 0 0 100%;max-width: 100%;}
   .blog-details .share-option ul {float: none !important;}
   .blog-details .public-comment-area .comment button {position: static;margin-top: 15px;}
 }
 
+
+/* 400px *********************/
 @media (max-width: 400px) {
   .top-feature .single-feature .text h4 a {font-size: 18px;margin-top: 0;}
-  .main-menu-wrapper .logo {width: 40%;margin-top: 15px;}
-  .logo img{
-    height: 113px;
-    width: 100px;
+  .main-menu-wrapper .logo {
+    /* width: 40%; */
+    margin-top: 15px;}
 
+  .logo img{
+    height: 90px;
+    width: 90px;
   }
   .titre_site{
     font-size: 25px;
-    padding-left: 10px;
-
+    padding-left: 10PX;
+    LINE-HEIGHT: 30px;
+    padding-top: 15px;
   }
 }

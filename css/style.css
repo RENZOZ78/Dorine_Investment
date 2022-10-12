@@ -330,7 +330,7 @@ body .theme-button {
 .theme-main-header .top-header .right-widget>li a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
   color: rgba(255,255,255,0.8);
   position: relative;
   padding: 0 25px 0 45px;
@@ -450,9 +450,10 @@ body .theme-button {
     list-style: none;
   }
 
-#navbarNav{
-  width: 70vh;
-}
+/* #navbarNav{
+  /* width: 70vh; */
+  /* margin-left: 80%; */
+ 
 
 /* .nav-item:hover{
   background-color: #104587;
@@ -463,41 +464,45 @@ body .theme-button {
 } */
 
 
-  a .nav-link.lien_titre{
+  /* a .nav-link.lien_titre{
   color: blue;
 }
 a.nav-link.lien_titre:hover {
   border: solid 2px;
   border-radius: 20px;
-  background-color: #FFD901;
-  color: blue;
-  
-}
+  background-color: gold;
+  color: blue;  
+} */
 
+/* menu  min 990px */
 .navbar-light .navbar-nav .nav-link{
-  color: blue;
-  font-size: 25px;
-  font-family: 'Marcellus SC', serif;
-  transition: all ease-in-out 0.5s;
+  color: blue !important;
+  font-size: 25px ;
+  font-family: 'Marcellus SC', serif ;
+  /* transition: all ease-in-out 0.3s !important; */
+  transition: all cubic-bezier(0.65, 0.05, 0.36, 1) 0.2s;
 }
 .navbar-light .navbar-nav .nav-link:hover{
   color: blue;
-  font-size: 27px;
-  background: #FFD901;
+  /* border: solid 2px !important;
+  border-radius: 20px !important; */
+  font-size: 27px ;
+  background: gold !important;
 }
-.navbar-light .navbar-nav .active .nav-link{
-  color: blue;
-  font-size: 25px;
-}
+
 
 #hamburger{
   margin-left: 80%;
-  margin-top: 30px;
+  margin-top: 30px !important;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
 }
 
-  /* .navnav{
-    width: 70vh;
-  } */
+#mega-menu-wrapper{
+  width: inherit;
+}
+
 
 /*================= Sticky Menu ===============*/
 @-webkit-keyframes menu_sticky {
@@ -710,6 +715,8 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,251,1,1) 42
   width: 100%;
   text-align: start;
   padding-bottom: 10px;
+  font-weight: 600;
+  color: blue;
 }
 
 .services{
