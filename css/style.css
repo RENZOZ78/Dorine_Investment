@@ -492,7 +492,7 @@ a.nav-link.lien_titre:hover {
 
 
 #hamburger{
-  margin-left: 80%;
+  margin-left: 85%;
   margin-top: 30px !important;
   height: 50px;
   width: 50px;
@@ -637,7 +637,7 @@ a.tran3s{
   color: white;
 }
 /*------------------------ Our Service ------------------------*/
-.our-service .theme-title {padding-bottom: 90px;}
+.our-service .theme-title {padding-bottom: 50px;}
 .service-inner-page {padding-bottom: 80px;}
 .our-service .single-service .image-box {overflow: hidden;background: #1e315d;}
 .our-service .single-service .image-box img {
@@ -664,10 +664,14 @@ a.tran3s{
   display: block;
   font-weight: 600;
   line-height: 32px;
+  color: blue;
 }
 
 .our-service .single-service .text h5 {
   font-weight: 600;
+  color: black;
+  padding-bottom: 1px;
+  /* text-decoration-line: underline; */
 }
 
 .our-service .single-service .text p, .our-service .single-service .text h5{
@@ -683,10 +687,18 @@ a.tran3s{
 .our-service .single-service .icon img {margin: 0 auto;}
 .our-service .single-service .icon {padding-top: 65px;}
 
+
+/* icones **********/
  i.bi.bi-circle-fill{
   width: 20px;
   height: 20px;
   display: inline list-item;
+}
+.single-service i {
+  text-align: start;
+  width: 100%;
+  padding-bottom: 20px;
+  color: blue;
 }
 
 .border_services{

@@ -51,6 +51,7 @@
 /*(max-width: 1199px)***********************/
 @media (max-width: 1199px) {
   .about-us-section .text-wrapper {padding-left: 0;}
+
   .contact-us-form {padding-right: 0;}
   
   .titre_site {    
@@ -81,7 +82,18 @@
   }
 }
 
-
+@media (min-width: 991px){
+  .navbar-light .navbar-nav .nav-link:hover {
+    /* color: blue; */
+    border: 2px solid blue;
+    border-radius: 20px;
+    font-size: 27px !important;
+    background: gold !important;
+    text-transform: uppercase;
+    transition: ease-in-out 0.4s;
+  }
+  
+}
 
 /* MAX 991PX  ***********************************************************/
 
@@ -124,6 +136,7 @@
     border-radius: 0;
     font-size: 27px !important;
     background: gold !important;
+    text-transform: uppercase;
   }
   
 
@@ -146,6 +159,13 @@
      text-align: center; 
      margin: 0 10%;
   }
+
+  #mega-menu-wrapper .navbar-collapse.show {
+    overflow-y: auto;
+    max-height: 400px;
+    background: rgba(250, 215, 0, 0.8);
+  }
+
   #mega-menu-wrapper .nav>li>a{
     font-size: 25px;
     height: 35px;
@@ -211,8 +231,8 @@
 
   .main-menu-wrapper{
     height: 150px;
-    border-bottom: 2px solid blue;
-    border-radius: 20px;
+    border-bottom: 1px solid blue;
+    border-radius: 10px;
   }
 
   .social {
@@ -487,8 +507,12 @@
   }
   .main-menu-wrapper{
     height: 130px;
-    border-bottom: 2px solid blue;
-    border-radius: 20px;
+    /* border-bottom: 2px solid blue;
+    border-radius: 20px; */
+  }
+
+  .border_services {
+   margin-bottom: 20px;
   }
 }
 
