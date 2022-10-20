@@ -844,6 +844,10 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,251,1,1) 42
 .home-about-section .right-side .opacity .main-content .name h5 {font-weight: 600;}
 .home-about-section .right-side .opacity .main-content .name p {font-size: 16px;}
 
+.mentions_legales{
+  background: #f6f6f6;
+}
+
 /*----------------------- Feature Banner --------------------*/
 .feature-banner {margin: 70px 0 120px 0;}
 .feature-banner.bg-one {
